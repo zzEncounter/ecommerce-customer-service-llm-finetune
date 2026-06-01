@@ -21,7 +21,9 @@ output/
 
 # Datasets
 E-commerce dataset/
-data/
+# data/ (Include small data files, ignore large ones)
+data/train.jsonl
+data/cleaned/train_cleaned.json
 
 # Logs
 *.log
