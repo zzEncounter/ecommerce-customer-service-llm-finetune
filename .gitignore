@@ -1,0 +1,31 @@
+# Virtual Environment
+bin/
+include/
+lib/
+lib64
+pyvenv.cfg
+share/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Models and Output
+output/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Datasets
+E-commerce dataset/
+data/
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
